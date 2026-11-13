@@ -1,0 +1,259 @@
+/*top header start*/
+.topheader a{
+    text-decoration: none;
+}
+/*top header end*/
+
+
+/*banner start*/
+.banner-slid .banner-middle{
+    top: 50%;
+    color:rgb(0, 255, 51);
+}
+
+/*banner overlay*/
+.banner-slid .carousel-item{
+    position: relative;
+}
+.banner-slid .carousel-item::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+}
+.banner-slid .carousel-item:hover::after{
+    opacity: 1;
+}
+.banner-slid .carousel-caption {
+    z-index: 2;
+}
+/*banner end*/
+
+
+/*testimonial profile icon start*/
+.profile-pic{
+    height: 80px;
+    width: 80px;
+    margin: 0 auto;
+}
+.profile-pic img{
+    height: 85px;
+    border-radius: 50%;
+    
+}
+/*testimonial profile icon end*/
+
+
+/*footer start*/
+.footer .main-collum {
+    display: grid;
+    grid-template-columns: 1fr .5fr .5fr 1fr;
+    column-gap: 50px;
+}
+.footer .main-collum .card{
+    border: none;
+    background-color: transparent;
+    color: #086288;
+}
+.footer{
+    background-color: rgb(217, 217, 217);
+}
+.footer .card-body{
+    text-align: center;
+}
+.footer .main-collum .card-body .link{
+    display: block;
+}
+/*2nd grid of footer*/
+.footer .main-collum .link2 a{
+    text-decoration: none;
+    color: #086288;
+}
+
+/*3rd grid of footer*/
+.footer .main-collum .card .socials a{
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    font-size: 14px;
+    margin-right: 8px;
+    display: inline-grid;
+    place-items: center; 
+    color: #ffffff; 
+    text-decoration: none;
+}
+.footer .main-collum .card .socials .fb{
+    background-color: #086288;
+}
+.footer .main-collum .card .socials .li{
+    background-color: #D98327;
+}
+.footer .main-collum .card .socials .yt{
+    background-color: #3E0F8D;
+}
+.footer .main-collum .card .socials .tm{
+    background-color: #55E07E;
+}
+.footer .main-collum .card .socials h5{
+    margin-bottom: 50px;
+}
+/*footer end*/
+
+/*all page footer start*/
+.footer-section .qlinks ul{
+  list-style: none; 
+  padding: 0;
+  margin: 0;
+}
+
+.footer-section .qlinks ul li{
+  margin-bottom: 8px; 
+}
+
+.footer-section .qlinks ul li a{
+  display: block;       
+  color: #ffc108;      
+  font-size: 16px;   
+  text-decoration: none; 
+}
+.footer-section .newsletter a{
+    display: block;
+    margin-bottom: 10px;
+}
+
+/*copyright start*/
+
+.copyright {
+    background-color: #000000; 
+    padding: 15px 0;          
+    text-align: center;  
+}
+
+.copyright p {
+    color: #ffffff;            
+    font-size: 13px;          
+    margin: 0;               
+}
+
+.copyright p strong {
+    font-weight: 700;        
+    border-bottom: 1px solid #ffffff; 
+}
+/*copyright end*/
+
+
+
+
+
+
+/*service page*/
+.service-banner {
+    position: relative;
+    text-align: center;
+}
+
+.service-banner img {
+    width: 100%;
+    height: 350px;
+}
+
+.banner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFFFFF;
+    background-color: rgba(33, 37, 41, 0.40);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.banner-content a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.drop .service-heading{
+    text-align: center;
+}
+
+
+.footer-section  .col-3 ul{
+    list-style: none;
+    text-decoration: none;
+}
+.footer-section .icos a{
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 50%;
+    display: inline-grid;
+    place-items: center;
+    margin-right: 8px;
+    text-decoration: none;
+    color: white;
+}
+.footer-section .icos .fb2{
+    background-color:#927365;
+}
+.footer-section .icos .tw2{
+    background-color:#2E4278
+;
+}
+.footer-section .icos .yt2{
+    background-color:#3F2E78;
+}
+
+
+
+
+
+/*project details page start*/
+
+.project-zoom .img-box {
+    width: 100%;
+    height: 340px;
+    overflow: hidden;
+}
+
+.project-zoom img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.4s;
+}
+
+.project-zoom img:hover {
+    transform: scale(1.5);
+}
+
+.project-zoom .col-lg-8{
+   padding-left: 0 auto;
+}
+
+.project-zoom .project-middle{
+    text-align: right;
+}
+
+.project-zoom .row ul{
+    list-style: none;
+}
+
+.project-zoom .row{
+    background-color: #EBE4D2;
+}
+
+
+
+
+/*about us page start*/
+.job-listing {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+}
+
